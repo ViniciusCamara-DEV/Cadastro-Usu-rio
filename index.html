@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Cadastro</title>
+</head>
+<body>
+    <div id="card_cadastro">
+
+        <div id="input">
+            <h1>Cadastro</h1>            
+            <input type="text" placeholder="Nome" id="nome">
+            <input type="text" placeholder="Sobrenome" id="sobre_nome">
+            <input type="text" placeholder="Nome do Usuário" id="usuario">
+            <input type="email" placeholder="E-mail" id="email">
+            <input type="password" name="" id="senha" placeholder="Senha">
+            <input type="password" name="" id="confirma_senha" placeholder="Confirmação de Senha">
+        </div>
+
+        <div id="termos">
+            <input type="checkbox" name="" id="check_box">
+            <span id="termo">Eu concordo com os <a href="">Termos</a> </span>
+        </div>
+
+        <button id="button">Cadastrar</button>
+
+        <div>
+            <h2>Lista de Usuários</h2>
+            <ul id="lista_usuarios">
+
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
