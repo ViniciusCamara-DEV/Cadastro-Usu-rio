@@ -53,8 +53,17 @@ body{
     color: #C8C8D2;
 }
 
-#input.error{
-    border-color: red;
+#input input.erro {
+    border: 2px solid red !important;
+    box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.6);
+}
+
+small.erro {
+    color: red;
+    font-size: 12px;
+    display: none;
+    margin-top: 2px;
+    text-align: left;
 }
 
 #termos{
@@ -75,3 +84,27 @@ button{
 #termo{
     font-size: 19px;
 }
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px; 
+    width: 100%;
+}
+
+
+.campo small {
+    color: red;
+    font-size: 12px;
+    display: none;
+    text-align: left;
+    margin: 0;
+    padding: 0 5px; 
+}
+
+
+#input input.erro {
+    border: 2px solid red !important;
+    box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.6);
+}
+
